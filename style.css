@@ -1,0 +1,99 @@
+h1, #imagenPrincipal{
+    font-size: 120px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+    font-weight: lighter;
+}
+#pokeName2, #pokeType, #pokeStatsTitulo, #pokeInfo{
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid blue;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+}
+#pokeStats-1, #pokeStats-2, #pokeStats-3{
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid blue;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 12%;
+}
+#pokeStats-4, #pokeStats-5, #pokeStats-6{
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid blue;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 17%;
+}
+#pokeMove-1, #pokeMove-2, #pokeMove-3{
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid blue;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 13%;
+}
+#pokeMove-4, #pokeMove-5, #pokeMove-6{
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid blue;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 19%;
+}
+#pokeImage{
+    margin-top: auto;
+    width:"700px"
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 8px solid #000000(211, 40, 40);
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    margin-bottom: 25px;
+}
+input[type=text]:focus {    
+    width: 35%;
+}
+button {
+    margin-top: auto;
+    border-radius: 10px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #25f837;
+    color: white;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <h1>Pokedex</h1>
+    <img src="./assets/img/pokeball.png" alt="Pokeball" id="imagenPrincipal" width="50px">
+    <br>
+    <br>
+    <br>
+    <label for="name">Ingresa el nombre del pokemón a buscar</label>
+    <br>
+    <input type="text" name="pokeName" id="pokeName">
+    <br>
+    <img src="./assets/img/pokeball.png" alt="pokeImage" id="pokeImage" width="150px">
+    <button onclick="fetchPokemon()">Cambiar Pokemón</button>
+    <br>
+    <br>
+    <label id="titulo">Nombre</label>
+    <br>
+    <input type="text" name="pokeName2" id="pokeName2" readonly>
+    <br>
+    <label id="titulo">Tipo</label>
+    <br>
+    <input type="text" name="pokeType" id="pokeType" readonly>
+    <br>
+    <label id="titulo">Estadísticas</label>
+    <br>
+    <br>
+    <input type="text" name="pokeStats-1" id="pokeStats-1" readonly>
+    <input type="text" name="pokeStats-2" id="pokeStats-2" readonly>
+    <input type="text" name="pokeStats-3" id="pokeStats-3" readonly>
+    <input type="text" name="pokeStats-4" id="pokeStats-4" readonly>
+    <input type="text" name="pokeStats-5" id="pokeStats-5" readonly>
+    <input type="text" name="pokeStats-6" id="pokeStats-6" readonly>
+    <br>
+    <label id="titulo">Movimientos</label>
+    <br>
+    <br>
+    <input type="text" name="pokeMove-1" id="pokeMove-1" readonly>
+    <input type="text" name="pokeMove-2" id="pokeMove-2" readonly>
+    <input type="text" name="pokeMove-3" id="pokeMove-3" readonly>
+    <input type="text" name="pokeMove-4" id="pokeMove-4" readonly>
+    <input type="text" name="pokeMove-5" id="pokeMove-5" readonly>
+    <input type="text" name="pokeMove-6" id="pokeMove-6" readonly>
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
